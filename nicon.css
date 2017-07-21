@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+ /* start of header section*/
+.header_section{
+	margin: 0;
+	width: 100%;
+	/*border: 2px solid red;*/
+	background:  #009933;
+	box-sizing: border-box;
+	overflow: hidden; /* float korar karone overflow: hidden; use korchi; box er size ta fire pabar jonno*/
+} 
+.header{
+	width: 960px;
+	margin:0 auto;
+}
+
+.logo{
+	 /*border: 2px solid black;*/ /*first e border diee die kore ekhon bad diee dichi */
+	width: 30%;
+	box-sizing: border-box;
+	float: left;  /* float korte giee header section er box ta chole geche tai , header section er modde :overflow: hidden tag ta use korye hobe;*/
+	font-family: sans-serif;
+	
+
+}
+.menu_bar{
+	/*border:2px solid green;*/
+	width: 70%;
+	box-sizing: border-box;
+	float: right;
+	overflow: hidden;
+}
+
+.menu_bar ul{
+	list-style: none; 
+	margin: 0;
+	float: right;
+   
+}
+.menu_bar ul li{
+	display: inline-block;  /* flot er jaygay display use kora hoyche, jehetu choto dhoroner kaj, & inline_block korle line akare asbe*/
+	
+	padding: 20px 15px;  /* Padding ta r first 20px ta hoche normar padding 2 ta hoche Menu ektar theke arektar durutto ;*/
+
+
+}
+.menu_bar ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.menu_bar ul li a:hover{   /* hover diee menu er text er colour change kora jay*/
+	color:  #ff0000;
+}
+.active_text{     /* .active_text diee text er colour fix kora ajy & HTML file e giee o active text korte hobe jeta chay*/
+	color: #ff0000;
+}
+
+ /* End of header section*/
+
+
+  /* Text style start*/
+.hero_section{
+	width: 100%;
+	height: 90vh;
+	background:  #33cccc;
+	position: relative;
+	
+}
+
+.hero_text{
+	
+	/* border: 2px solid black;  starting e border diee kore pore, ekhon delete kore dilam*/
+	position: absolute;
+	text-align: center;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: red;
+}
+
+.hero_text h1{
+     margin: 0;
+     font-size: 45px;
+     font-weight: bold;
+     font-family: sans-serif;
+}
+.hero_text h3{
+	font-size: 20px;
+	font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* text style teme button here*/
+
+  
+}
+ /* End of text style*/
+/*About me start here*/
+.about_me_section{
+	
+	width: 960px;
+	margin: 0 auto;
+	height: 90vh;
+	padding: 40px 0;
+	position: relative;
+}
+
+.about_me_tittle{
+	
+	width: 100%;
+	margin:0 auto;
+	padding: 20px, 0;
+	position: relative;
+
+}
+.about_me_tittle h1{
+   position: absolute;
+   text-align: center;
+    font-size: 45px;
+  
+}
+.about_me_tittle h3{
+     font-size: 25px;
+      text-align: center;
+
+}	
+.about_me_content{
+	
+	width: 50%;
+	display: inline-block;
+
+
+}
+.about_me_content img{
+	width: 100%;
+	width:455px  height:540px;
+	width: 40%;
+}
+
+/*About me End here*/
+
+  /* start services style*/
+.service_section{
+	width: 100%;
+	background: 	#ccf2ff;
+	padding: :50px 0;
+}
+.service_part{
+	width: 960px;
+	margin: 0 auto; 	/* jehetu majkhane rakhbo shehetu margin 0 auto kore dite hobe*/
+	border: 2px solid black;
+	box-sizing: border-box;
+}
